@@ -6,12 +6,11 @@
 */
 int main(void)
 {
-char w;
-char x = '\n';
+int w;
 for (w = 0; w <= 10; w++)
 {
 putchar(w);
-putchar(x);
+
 }
 return (0);
 }
