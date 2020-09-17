@@ -5,9 +5,11 @@
 */
 int main(void)
 {
-for (int w = 'A'; w <= 'z'; w++)
+int w;
+for (w = 'a'; w <= 'z'; w++)
 {
-putchar(tolower(w\n));
+putchar(w);
+putchar ('\n');
 }
 return (0);
 }
