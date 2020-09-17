@@ -6,7 +6,8 @@
 */
 int main(void)
 {
-int w;
+char w;
+char y = '\n';
 for (w = 0; w <= 9; w++)
 {
 putchar (w);
@@ -15,6 +16,7 @@ int x;
 for (x = 'a'; x <= 'f'; x++)
 {
 putchar(x);
+putchar(y);
 }
 return (0);
 }
