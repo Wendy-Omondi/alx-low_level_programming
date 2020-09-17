@@ -6,16 +6,18 @@
 */
 int main(void)
 {
-int w;
+char w;
+char y = '\n';
 for (w = 'a'; w <= 'z'; w++)
 {
 putchar (w);
 }
-int x;
-for (x = 'A'; x <= 'z'; x++)
+int z;
+for (z = 'A'; z <= 'z'; z++)
 {
-putchar (x);
-putchar ('\n');
+putchar (w);
+putchar (z);
+putchar (y);
 }
 return (0);
 }
