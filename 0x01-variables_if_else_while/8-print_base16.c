@@ -12,7 +12,6 @@ for (w = 0; w <= 9; w++)
 
 putchar (w + '0');
 
-int x;
 for (x = 'a'; x <= 'f'; x++)
 
 putchar(x);
