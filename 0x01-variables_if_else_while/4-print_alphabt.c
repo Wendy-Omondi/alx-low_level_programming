@@ -14,6 +14,6 @@ continue;
 else
 putchar(w);
 }
-putchar('\n);
+putchar('\n');
 return (0);
 }
