@@ -1,10 +1,10 @@
 #include "holberton.h"
 /**
-* main - Print lowercase alphabet in 10 lines
+* print_alphabet_x10 - Print lowercase alphabet in 10 lines
 *
 * Return: Always 0 (Success)
 */
-int main(void)
+void print_alphabet_x10(void)
 {
 int w, y;
 while (w <= 9)
@@ -16,5 +16,5 @@ _putchar(y);
 _putchar('\n');
 w++;
 }
-return (0);
+
 }
