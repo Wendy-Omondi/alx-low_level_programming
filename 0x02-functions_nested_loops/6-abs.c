@@ -1,13 +1,12 @@
 #include "holberton.h"
 /**
-* main - Entry point
+* _abs - Entry point
 *
 * Return: Always 0 (Success)
 */
-int main(void)
-{
-int _abs(int);
 
+int _abs(int);
+{
 int w = _abs(-1);
 int y = _abs(0);
 int x = _abs(1);
@@ -21,5 +20,5 @@ _putchar(x + '0');
 _putchar('\n');
 _putchar(z + '0');
 _putchar('\n');
-return (0);
+
 }
