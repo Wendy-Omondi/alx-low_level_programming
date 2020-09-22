@@ -11,11 +11,11 @@ for (w = 0; w < 24; w++)
 {
 for (y = 0; y <= 60; y++)
 {
-_putchar(w / 10 + '0');
-_putchar(w % 10 + '0');
+_putchar(w / 10 + 0);
+_putchar(w % 10 + 0);
 _putchar(':');
-_putchar(y / 10 + '0');
-_putchar(y % 10 + '0');
-_putchat('\n')
+_putchar(y / 10 + 0);
+_putchar(y % 10 + 0);
+_putchar('\n')
 }
 }
