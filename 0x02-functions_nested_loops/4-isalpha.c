@@ -8,16 +8,13 @@ int main(void)
 {
 int _isalpha(int c);
 
-int c;
-
-c = _isalpha('H');
-_putchar(r + '1');
-c = _isalpha('o');
-_putchar(r + '1');
-c = _isalpha(108);
-_putchar(r + '1');
-c = _isalpha(';');
-_putchar(r + '0');
+int c = 0;
+int w = '1';
+int y = '0';
+if (_isalpha(c))
+_putchar(w);
+else
+_putchar(y);
 _putchar('\n');
 return (0);
 }
