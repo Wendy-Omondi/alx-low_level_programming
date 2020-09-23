@@ -11,7 +11,7 @@ for (w = 0; w < 10; w++)
 {
 for (y = 0; y < 10; y++)
 {
-if (w == 0)
+if (y == 0)
 {
 _putchar(48);
 continue;
