@@ -11,14 +11,15 @@ if (n <= 98)
 {
 for (w = n; w < 98; w++)
 {
-printf("%w,", w);
+printf("%w, ", w);
 }
 }
 else
 {
 for (w = n; w > 98; w--)
 {
-printf("%w,", w);
+printf("%w, ", w);
 }
 printf("98\n");
+}
 }
