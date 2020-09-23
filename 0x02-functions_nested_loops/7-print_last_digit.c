@@ -8,9 +8,16 @@
 
 int print_last_digit(int n);
 {
-int lastdigit;
-
-lastdigit = n % 10;
-_putchar(lastdigit + '0');
-return (lastdigit);
+int w;
+if (n < 0)
+{
+a = -1 * (n % 10);
+_putchar(a + '0');
+return (w);
+}
+Else
+{
+mv = n % 10;
+return (w);
+}
 }
