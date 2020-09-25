@@ -16,7 +16,7 @@ printf("Buzz ");
 else if (i % 3 == 0)
 printf("Fizz ");
 else
-printf("%i\n", i);
+printf("%i", i);
 }
 return (0);
 }
