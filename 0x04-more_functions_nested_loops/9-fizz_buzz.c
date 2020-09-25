@@ -1,4 +1,3 @@
-#include "holberton.h"
 #include <stdio.h>
 /**
 * main - Entry point
@@ -8,17 +7,16 @@
 int main(void)
 {
 int w;
-for (w = 1; w <= 99; w++)
+for (w = 1; w <= 100; w++)
 {
-if (w % 3 == 0)
-printf("Fizz");
+if ((w % 3 == 0) && (w % 5 == 0))
+printf("FizzBuzz ");
 else if (w % 5 == 0)
-printf("Buzz");
-else if (w % 15 == 0)
-printf("FizzBuzz");
+printf("Buzz ");
+else if (w % 3 == 0)
+printf("Fizz ");
 else
-printf("%w", w);
+printf("%w\n", w);
 }
-printf("Buzz\n");
 return (0);
 }
