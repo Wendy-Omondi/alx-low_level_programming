@@ -6,17 +6,17 @@
 */
 int main(void)
 {
-int w;
-for (w = 1; w <= 100; w++)
+int i;
+for (i = 1; i <= 100; i++)
 {
-if ((w % 3 == 0) && (w % 5 == 0))
+if ((i % 3 == 0) && (i % 5 == 0))
 printf("FizzBuzz ");
-else if (w % 5 == 0)
+else if (i % 5 == 0)
 printf("Buzz ");
-else if (w % 3 == 0)
+else if (i % 3 == 0)
 printf("Fizz ");
 else
-printf("%w\n", w);
+printf("%i\n", i);
 }
 return (0);
 }
