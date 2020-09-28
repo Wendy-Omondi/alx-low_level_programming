@@ -6,11 +6,10 @@
 */
 int _strlen(char *s)
 {
-int r = 0;
-for (r = 0; s[r] != '\0'; r++)
-{
-_putchar(s[r]);
+int w = 0;
+while (w != '\0')
+w++;
+s++;
+return (w);
 }
-_putchar('\n');
-return(r);
-}
+
