@@ -12,5 +12,5 @@ for (r = 0; s[r] != '\0'; r++)
 _putchar(s[r]);
 }
 _putchar('\n');
-return (r);
+return(r);
 }
