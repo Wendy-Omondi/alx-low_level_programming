@@ -24,6 +24,5 @@ length++;
 dest[length] = src[w];
 
 dest[length] = '\0';
-_putchar(*dest);
-return (0);
+return (dest);
 }
