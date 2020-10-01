@@ -6,9 +6,13 @@
 */
 char *string_toupper(char *x)
 {
-int w;
+char *w = x;
 
-if (x[w] >= 'a' && x[w] <= 'z')
-x[w] = x[w] - 32;
+while (*x)
+{
+if (*x >= 97 && *x <= 122)
+*x -= 32;
+x++;
+}
 return (w);
 }
