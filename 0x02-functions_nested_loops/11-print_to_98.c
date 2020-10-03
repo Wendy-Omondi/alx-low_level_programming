@@ -1,5 +1,6 @@
 #include "holberton.h"
 #include <stdlib.h>
+#include <stdio.h>
 /**
 * print_to_98 - Prints all natural numbers from n to 98
 *@n: first number
@@ -12,15 +13,15 @@ if (n <= 98)
 {
 for (w = n; w < 98; w++)
 {
-_putchar(w);
+printf("%d, ", w);
 }
 }
 else
 {
 for (w = n; w > 98; w--)
 {
-_putchar(w);
+printf("%d, ", w);
+}
 }
 printf("98\n");
-}
 }
