@@ -19,7 +19,7 @@ else
 {
 for (w = n; w > 98; w--)
 {
-_puthcar(w);
+_putchar(w);
 }
 printf("98\n");
 }
