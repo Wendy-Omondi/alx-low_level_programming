@@ -8,16 +8,8 @@
 
 int print_last_digit(int n)
 {
-int w;
-if (n < 0)
-{
-a = -1 * (n % 10);
-_putchar(a + '0');
-return (w);
-}
-Else
-{
-mv = n % 10;
-return (w);
-}
+int lastdigit;
+lastdigit = n % 10;
+
+return (lastdigit);
 }
