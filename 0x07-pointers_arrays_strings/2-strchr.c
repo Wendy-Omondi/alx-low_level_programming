@@ -16,6 +16,6 @@ w = *s++;
 if (w == c)
 return (s - 1);
 if (!w)
-return (NULL);
+return (0);
 }
 }
