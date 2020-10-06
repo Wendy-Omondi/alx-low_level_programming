@@ -13,7 +13,6 @@ for (y = 0; y < 8; y++)
 {
 _putchar(a[w][y]);
 }
-}
 _putchar('\n');
 }
-
+}
