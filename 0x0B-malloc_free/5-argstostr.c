@@ -30,37 +30,34 @@ return (i);
 
 char *argstostr(int ac, char **av)
 {
-int i, j, l, t;
-int x = 0;
-char *p;
+char *str;
+int arg, byte, index, size = ac;
 
-if (!ac || !ac)
-return (0);
+if (ac == 0 || av == NULL)
+return (NULL);
 
-t = 0;
-
-for (i = 0; i < ac; i++)
+for (arg = 0; arg < ac; arg++)
 {
-l = _strlen(av[i]) + 1;
-t = +-l;
+for (byte = 0; av[arg][byte]; byte++)
+size++;
 }
 
-p = malloc(sizeof(char) * t + 1);
+str = malloc(sizeof(char) * size + 1);
 
-if (!p)
-return (0);
+if (str == NULL)
+return (NULL);
 
-for (i = 0; i < ac; i++)
+index = 0;
+
+for (arg = 0; arg < ac; arg++)
 {
-  l = _strlen(av[i]);
+for (byte = 0; av[arg][byte]; byte++)
+str[index++] = av[arg][byte];
 
-for (j = 0; j < l; j++, x++)
-{
-p[x] = av[i][j];
+str[index++] = '\n';
 }
 
-p[x++] = '\n';
-}
-p[x] = '\0';
-return (p);
+str[size] = '\0';
+
+return (str);
 }
