@@ -10,14 +10,15 @@ void print_all(const char * const format, ...)
 unsigned int i = 0;
 char *str, *seperator = "";
 va_list arguments;
-va_start(arguments, dormat);
+va_start(arguments, format);
 if (format)
 {
 while (format[i])
 {
 switch (format[i])
+{
 case 'c':
-printf("$s%f", seperator, va_arg(arguments, double));
+printf("%s%f", seperator, va_arg(arguments, double));
 case 'i':
 printf("%s%f", seperator, va_arg(arguments, double));
 case 'f':
