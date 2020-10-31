@@ -1,1 +1,1 @@
-Learning Singly linked lists
+Learning Singly inked lists
