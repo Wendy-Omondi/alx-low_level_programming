@@ -15,6 +15,7 @@ return (NULL);
 while (nth)
 {
 head = head->next;
+nth++;
 }
 return (head);
 }
