@@ -15,6 +15,7 @@ _putchar(w / 10 + '0');
 _putchar(w % 10 + '0');
 _putchar(':');
 _putchar(y / 10 + '0');
+_putchar(y % 10 + '0');
 _putchar('\n');
 }
 }
