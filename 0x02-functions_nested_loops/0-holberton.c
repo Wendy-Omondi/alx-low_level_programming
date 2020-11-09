@@ -6,11 +6,11 @@
 */
 int main(void)
 {
-char *school_name = "Holberton";
-int letters = 0;
-for (letters = 0; letters <= 9; letters++)
+char *w = "Holberton";
+int i = 0;
+for (i = 0; i <= w[i]; i++)
 {
-_putchar(school_name[letters]);
+_putchar(w[i]);
 }
 _putchar('\n');
 return (0);
