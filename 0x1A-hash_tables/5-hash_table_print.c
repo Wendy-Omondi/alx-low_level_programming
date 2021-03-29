@@ -1,5 +1,4 @@
 #include "hash_tables.h"
-
 /**
  *hash_table_print - prints hash table
  *@ht: the hash table
@@ -11,17 +10,12 @@ unsigned long int i;
 unsigned long int size;
 unsigned int nodes;
 hash_node_t *element;
-
 i = 0;
 nodes = 0;
-
 if (ht == NULL)
 return;
-
 size = ht->size;
-
 printf("{");
-
 for (i = 0; i < size; i++)
 {
 if (ht->array[i] != NULL)
