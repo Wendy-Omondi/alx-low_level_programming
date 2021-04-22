@@ -20,7 +20,7 @@ return (-1);
 while (value != array[pos])
 {
 
-pos = low + (((double)(high - low) / (array[high] - array[low])) * 
+pos = low + (((double)(high - low) / (array[high] - array[low])) *
 (value - array[low]));
 
 if (pos < size)
