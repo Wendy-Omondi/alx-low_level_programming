@@ -1,10 +1,11 @@
 #ifndef SEARCH_ALGOS_H
 #define SEARCH_ALGOS_H
 
+#define MIN(a, b) (((a) < (b)) ? (a) : (b))
 #include <stdio.h>
 #include <stdlib.h>
 #include <math.h>
-
+#include <limits.h>
 /**
 project prototypes
 */
@@ -46,7 +47,7 @@ typedef struct skiplist_s
 } skiplist_t;
 
 int linear_search(int *array, size_t size, int value);
-int binary_search(int *array, size_t size, int value);
+int binary_search(int *array, size_t size, int value, size_t counter);
 int jump_search(int *array, size_t size, int value);
 int interpolation_search(int *array, size_t size, int value);
 int exponential_search(int *array, size_t size, int value);
