@@ -24,9 +24,9 @@ pos = low + (((double)(high - low) / (array[high] - array[low])) *
 (value - array[low]));
 
 if (pos < size)
-printf("Value checked array [%ld] = [%d]\n", pos, array[pos]);
+printf("Value checked array[%ld] = [%d]\n", pos, array[pos]);
 else
-printf("Value checked array [%ld] is out of range\n", pos);
+printf("Value checked array[%ld] is out of range\n", pos);
 break;
 
 if (array[pos] == value)
