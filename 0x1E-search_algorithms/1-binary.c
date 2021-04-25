@@ -23,18 +23,24 @@ return (-1);
 
 printf("Searching in array: ");
 for (counter = lower; counter <= upper; counter++)
-printf("%d, ", array[counter]);
-printf("%d\n", array[counter]);
+{
+if (counter != lower)
+printf(", %d", array[counter]);
+else
+printf("%d", array[counter]);
+}
+printf("\n");
 
 midpoint = lower + (upper - lower) / 2;
 
-if (array[midpoint] < value)
-lower = midpoint + 1;
-else if (array[midpoint > value])
-upper = midpoint - 1;
-else
+if (array[midpoint] == value)
 return (midpoint);
 
+if (array[midpoint] < value)
+lower = midpoint + 1;
+
+else
+upper = midpoint - 1;
 }
 return (-1);
 }
