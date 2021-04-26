@@ -11,17 +11,21 @@ int space;
 
 num = 0;
 
-if (n > 0)
+
+if (n <= 0)
 {
+_putchar('\n');
+}
+
 while (num < n)
 {
 for (space = 0; space < num; space++)
 {
 _putchar(' ');
 }
-_putchar('\\');
+_putchar(92);
+_putchar('$');
 _putchar('\n');
 num++;
-}
 }
 }
