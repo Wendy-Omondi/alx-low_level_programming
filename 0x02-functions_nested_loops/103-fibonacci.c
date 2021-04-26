@@ -7,25 +7,23 @@
 
 int main(void)
 {
-int counter;
+int counter = 0;
 long int first = 1;
-long int second = 1;
-long int sum;
-long long int sums;
+long int second = 2;
+long int sum = second;
 
- for (counter = 1; counter <= 4000000; counter++)
+while (second + first < 4000000)
 {
-sum = first + second;
-first = second;
-second = sum;
-if (sum % 2 == 0)
-{
-sums += sum;
-printf("%ld", sum);
+second += first;
+
+if (second % 2 == 0)
+sum += second;
+
+first = second - first;
+
+counter++;
 }
-else
-return (0);
-}
-printf("\n");
+printf("%ld\n", sum);
+
 return (0);
 }
