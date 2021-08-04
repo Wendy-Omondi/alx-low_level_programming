@@ -39,4 +39,4 @@
 * [0x16. C - Simple Shell](https://github.com/kaci65/simple_shell)
 
 ## Author
-* Wendy Akinyi [email](wendyomi4@gmail.com)
+* [Wendy Akinyi](wendyomi4@gmail.com)
